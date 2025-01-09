@@ -1,0 +1,4 @@
+/public
+.hugo_build.lock
+themes/diary/themes/
+serve-local.sh
