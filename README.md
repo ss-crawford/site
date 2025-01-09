@@ -1,4 +1,4 @@
-# A peronal site.
+# A personal site.
 
 Thanks to the following projects:
  - [Hugo](https://github.com/gohugoio/hugo)
