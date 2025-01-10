@@ -8,7 +8,6 @@ copyright = "2025 s. s. crawford"
   home = ["HTML", "RSS"]
 
 [params]
-  subtitle = "A writer."
   author = "s. s. crawford"
   enableAutoDarkMode=true
 
@@ -21,3 +20,7 @@ copyright = "2025 s. s. crawford"
     name = "About"
     url = "/about/"
     weight = 2
+  [[menu.main]]
+    name = "Acknowledgments"
+    url = "/acknowledgments/"
+    weight = 3
