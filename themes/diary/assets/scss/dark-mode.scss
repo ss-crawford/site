@@ -193,7 +193,7 @@ body.night {
   .single-column-header-container {
     @media screen and (max-width: $single-column-max-width) {
       * {
-        font-family: $sans-preferred-font-list;
+        font-family: $default-font-list;
         color: $deep-light-accent;
       }
       .single-column-header-title {
