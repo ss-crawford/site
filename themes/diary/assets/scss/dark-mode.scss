@@ -7,6 +7,10 @@ $dark-mode-text: darken(#fff, 10%);
 $dark-mode-back-container-background: #111114;
 $dark-mode-front-container-background: #222224;
 
+* {
+  font-family: "LibreBaskerville", serif !important;
+}
+
 body.night {
   background: $dark-mode-back-container-background;
   :root {
