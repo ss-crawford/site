@@ -10,6 +10,10 @@ $front-container-background: #ffffff;
   font-style: normal;
 }
 
+* {
+  font-family: "LibreBaskerville" !important;
+}
+
 $default-font-list: "LibreBaskerville";
 $mono-font-list: "Fira Mono", "Cousine", Monaco, Menlo, "Source Code Pro",
   monospace;
