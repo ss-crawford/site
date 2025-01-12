@@ -5,7 +5,9 @@ $front-container-background: #ffffff;
 
 @font-face {
   font-family: 'LibreBaskerville';
-  src: url('../fonts/LibreBaskerville-Regular.ttf') format('ttf');
+  src: url('fonts/LibreBaskerville-Regular.woff2') format('woff2'),
+       url('fonts/LibreBaskerville-Regular.woff') format('woff'),
+       url('fonts/LibreBaskerville-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
