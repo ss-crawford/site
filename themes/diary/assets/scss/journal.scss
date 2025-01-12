@@ -340,7 +340,7 @@ a {
     transition: padding 0.5s ease-in-out, margin 0.5s ease-in-out;
     text-align: center;
     * {
-      font-family: $sans-preferred-font-list;
+      font-family: $default-font-list;
       color: $deep-dark-accent;
     }
     .single-column-header-title {
@@ -438,7 +438,7 @@ a {
   height: 100vh;
   width: $side-container-width;
   text-align: right;
-  font-family: $sans-preferred-font-list;
+  font-family: $default-font-list;
   padding: 20px 0 50px 0;
   //overflow-x: hidden;
   //overflow-y: hidden;
@@ -526,7 +526,7 @@ a {
   height: 100vh;
   width: $extra-container-width;
   /*text-align: right;*/
-  font-family: $sans-preferred-font-list;
+  font-family: $default-font-list;
   //overflow-x: hidden;
   //overflow-y: hidden;
   display: flex;
@@ -597,7 +597,7 @@ a {
   height: 100vh;
   width: $side-container-width;
   text-align: right;
-  font-family: $sans-preferred-font-list;
+  font-family: $default-font-list;
   padding: 20px 0;
   overflow: scroll;
   display: flex;
@@ -969,7 +969,7 @@ a {
     display: block !important;
     text-align: center;
     font-size: $single-column-nav-footer-size;
-    font-family: $sans-preferred-font-list;
+    font-family: $default-font-list;
     padding: 40px 20px 40px 20px;
   }
 }
