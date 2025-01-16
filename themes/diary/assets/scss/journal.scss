@@ -3,23 +3,13 @@ $color-accent: #b8520e;
 $back-container-background: #fcfcfc;
 $front-container-background: #ffffff;
 
-@font-face {
-  font-family: 'LibreBaskerville';
-  src: url('/fonts/LibreBaskerville-Regular.woff2') format('woff2'),
-       url('/fonts/LibreBaskerville-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
 * {
-  font-family: "LibreBaskerville", "TimesNewRoman", !important;
+  font-family: "Times New Roman", Times, serif, !important;
 }
 
-$default-font-list: "LibreBaskerville";
+$default-font-list: "Times New Roman";
 $mono-font-list: "Fira Mono", "Cousine", Monaco, Menlo, "Source Code Pro",
   monospace;
-//$sans-preferred-font-list: "Montserrat", "Roboto", "Source Sans Pro", "Helvetica", $default-font-list !important;
-//$sans-preferred-font-list: $default-font-list !important;
 
 $side-container-width: 25%; //280px;
 $extra-container-width: 25%;
