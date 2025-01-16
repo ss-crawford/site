@@ -4,8 +4,6 @@
 
 Mobile will not set itself to use LibreBaskerville. I have no idea why.
 
-Also, I have no idea why the favicon is not working.
-
 ## Thanks
 
 Thanks to the following projects which are used for this site:
