@@ -1,7 +1,7 @@
-$color-accent: #b8520e;
+$color-accent: #05547c;
 //$color-accent: #330000;
-$back-container-background: #fcfcfc;
-$front-container-background: #ffffff;
+$back-container-background: #fdaa95;
+$front-container-background: #FAF3E0;
 
 // *:not(.material-icons) {
 //   font-family: "Times New Roman", Times, serif, !important;
@@ -323,7 +323,7 @@ a {
       position: absolute;
       width: 100%;
       height: 100%;
-      background: white;
+      background: #ffa088;
       -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
       -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
       box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -364,7 +364,7 @@ a {
     z-index: 1800;
     transition: all 0.3s ease-in-out;
     .drawer-content {
-      background: white;
+      background: #FAF3E0;
       height: 100%;
       width: 100%;
       padding: 50px 0 80px 0;
@@ -405,6 +405,7 @@ a {
               $drawer-menu-item-active-background-alpha
             );
             color: darken($color-accent, $drawer-menu-item-active-color-darken);
+          
           }
         }
       }
@@ -643,7 +644,7 @@ a {
             flex-direction: column-reverse;
             margin: 0 0 15px 0;
             padding: 0;
-            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            // box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
             background: $front-container-background;
           }
           .post-item-info-wrapper {
