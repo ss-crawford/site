@@ -1,4 +1,4 @@
-baseURL = "http://sscrawford.net/"
+baseURL = "https://sscrawford.net"
 description = "S. S. Crawford is an author of short horror stories."
 enableRobotsTXT = true
 languageCode = "en-us"
